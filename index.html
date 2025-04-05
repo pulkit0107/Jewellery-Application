@@ -51,11 +51,26 @@
     <button onclick="finalPriceTQ()">Final Price</button>
     <p>Final TanishQ Price with GST & Making Charges: <span id="finalPriceTQ"></span></p>
 </div>
-    
+
 <hr>
 
-    <button onclick="finaldiff()">Final Difference</button>
-    <p>Final Difference in prices of both is: <span id="finaldiff"></span></p>
+<h3>Wanna see how much difference in prices is same carat and same weight</h3>
+
+
+    <label for="goldRateFN">Enter Current Gold MCX Rate Per Gram in ₹:</label>
+    <input type="number" id="goldRateFN" name="goldRateFN" placeholder="Enter Current Gold Price" required><br><br>
+
+    <label for="weightFN">Weight (grams):</label>
+    <input type="number" id="weightFN" name="weightFN" placeholder="Enter weight in grams" required><br><br>
+
+    <label for="caratFN">Enter Carat </label>
+    <input type="number" id="caratFN" name="caratFN" placeholder="Enter carat" required><br><br>
+
+    <button onclick="Difference()">Final Difference </button>
+    <p>Final Difference in prices of both: <span id="Difference"></span></p>
+</div>
+    
+
  
 
   <script src="script.js"></script>
