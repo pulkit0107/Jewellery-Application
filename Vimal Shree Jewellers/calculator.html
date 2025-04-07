@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/calculator.css">
+    <title>Document</title>
+</head>
+<body>
+
+  <h2>Gold Jewellery Price Calculator</h2><hr>
+
+    <div>
+      <h3>Vimal Shree Jewellers</h3>
+
+    <label for="makingCharge">Making Charges = 7%</label><br><br>
+
+    <label for="gst">GST = 3%</label><br><br>
+
+    <label for="goldRate">Enter Current Gold MCX Rate Per Gram in ₹:</label>
+    <input type="number" id="goldRate" name="goldRate" placeholder="Enter Current Gold Price" required><br><br>
+
+    <label for="weight">Weight (grams):</label>
+    <input type="number" id="weight" name="weight" placeholder="Enter weight in grams" required><br><br>
+
+    <label for="carat">Enter Carat </label>
+    <input type="number" id="carat" name="carat" placeholder="Enter carat" required><br><br>
+
+    <button onclick="finalPrice()">Final Price</button>
+    <p>Final Vimal ShreePrice with GST & Making Charges: <span id="finalprice"></span></p>
+
+    </div>
+
+    <hr>
+    
+<div>
+  <h3>TanishQ</h3>
+
+    <label for="makingChargeTQ">Making Charges = 16.5%</label><br><br>
+
+    <label for="gstTQ">GST = 3% </label><br><br>
+
+    <label for="goldRateTQ">Enter Current Gold MCX Rate Per Gram in ₹:</label>
+    <input type="number" id="goldRateTQ" name="goldRateTQ" placeholder="Enter Current Gold Price" required><br><br>
+
+    <label for="weightTQ">Weight (grams):</label>
+    <input type="number" id="weightTQ" name="weightTQ" placeholder="Enter weight in grams" required><br><br>
+
+    <label for="caratTQ">Enter Carat </label>
+    <input type="number" id="caratTQ" name="caratTQ" placeholder="Enter carat" required><br><br>
+
+    <button onclick="finalPriceTQ()">Final Price</button>
+    <p>Final TanishQ Price with GST & Making Charges: <span id="finalPriceTQ"></span></p>
+</div>
+
+<hr>
+
+<h3>Wanna see how much difference in prices is same carat and same weight</h3>
+
+
+    <label for="goldRateFN">Enter Current Gold MCX Rate Per Gram in ₹:</label>
+    <input type="number" id="goldRateFN" name="goldRateFN" placeholder="Enter Current Gold Price" required><br><br>
+
+    <label for="weightFN">Weight (grams):</label>
+    <input type="number" id="weightFN" name="weightFN" placeholder="Enter weight in grams" required><br><br>
+
+    <label for="caratFN">Enter Carat </label>
+    <input type="number" id="caratFN" name="caratFN" placeholder="Enter carat" required><br><br>
+
+    <button onclick="Difference()">Final Difference </button>
+    <p>Final Difference in prices of both: <span id="Difference"></span></p>
+</div>
+    
+
+ 
+
+  <script src="/js/calculator.js"></script>
+</body>
+</html>
+
+
