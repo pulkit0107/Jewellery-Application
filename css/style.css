@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+}
+
+#my-navigation{
+    background: none;
+    border: none;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+}
+
+#my-navigation .navbar-toggle{
+    display: block;
+    border: 0;
+}
+
+#my-navigation .navbar-toggle:hover{
+    background: none;
+    cursor: pointer;
+}
+
+#my-navigation .navbar-header{
+    float: none;
+}
+
+
+#my-navigation .navbar-right{
+    float: left !important;
+}
+
+#my-navigation .icon-bar{
+    background-color: #fff;
+}
+
+#my-navigation .icon-bar-left{
+    float: left;
+}
+
+#my-navigation .icon-right{
+    float: left;
+    position: relative;
+    top: -3px;
+    padding-left: 10px;
+    color: #fff;
+}
+
+#my-navigation .navbar-brand, #my-navigation ul li a{
+    color: #fff;
+}
+
+/*carousel code*/
+
+.my-container{
+    padding: 0;
+    color: #fff;
+}
+
+
+.carousel .item{
+    background-image: url("../img/slide01.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.carousel .item1{
+    background-image: url("../img/slide02.jpg");
+}
+
+.carousel .item2{
+    background-image: url("../img/slide03.jpg");
+}
+
+.carousel .item3{
+    background-image: url("../img/slide04.jpg");
+}
+
+.carousel .item4{
+    background-image: url("../img/slide05.jpg");
+}
+
+
+
+.box2{
+    background-image: url(../img/pic.jpg);
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+.box2 h1{
+    color: #fff;
+}
+
+.box2 input{
+    background-color:transparent;
+    width: 30%;
+    height: 20px;
+    border-style: none;
+}
+
+.box2 textarea{
+    background-color: transparent;
+    margin: 30px;
+   
+}
+
+.box2 hr{
+    width: 30%;
+}
+
+.box2 button{
+    text-align: left;
+    background-color: #fff;
+    color: #1E1E1E;
+}
+
+
+
+.box1 {
+    background-color: #1E1E1E;
+    padding: 25px;
+}
+
+.box1 p{
+    color: #B7B7B7;
+    margin: 5px;
+    display: inline;
+}
+
+
+
+
+
+
+/*footer starts*/
+
+.footer{
+    background-color: black;
+    color: gray;
+    padding: 50px 0;
+}
+
+.footer a{
+    color: gray;
+}
+
+.footer .fa{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.footer p{
+    margin-top: 20px;
+}
